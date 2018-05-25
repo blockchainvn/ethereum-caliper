@@ -7,11 +7,12 @@ make -p $GOPATH/src/github.com/ethereum
 ln -s $PWD $GOPATH/src/github.com/ethereum/go-ethereum
 ```
 
-#### Run testcase
+#### Run test & benchmark
 
 ```bash
 # ./test.sh folder method_pattern
 ./test.sh trie TestCanUnload TestHexKeybyte
+./bench.sh trie BenchmarkHash BenchmarkProve
 ```
 
 #### Auto update import
