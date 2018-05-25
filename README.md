@@ -14,4 +14,16 @@ ln -s $PWD $GOPATH/src/github.com/ethereum/go-ethereum
 ./test.sh trie TestCanUnload TestHexKeybyte
 ```
 
+#### Auto update import
+
+```bash
+# install goimports
+go get -u golang.org/x/tools/cmd/goimports
+# install GoSublime at https://github.com/DisposaBoy/GoSublime
+# Open the GoSublime/Settings User and make it look like this:
+{
+    "fmt_cmd": ["goimports"]
+}
+```
+
 ![Test Demo](image.png)
