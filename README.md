@@ -14,4 +14,4 @@ ln -s $PWD $GOPATH/src/github.com/ethereum/go-ethereum
 ./test.sh trie TestCanUnload TestHexKeybyte
 ```
 
-![Test Demo](image.jpg)
+![Test Demo](image.png)
